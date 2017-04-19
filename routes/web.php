@@ -19,6 +19,10 @@ Route::get('/canvas', function (){
     return view('canvas');
 });
 
+Route::get('/svg', function (){
+    return view('svg');
+});
+
 Route::group(['middleware' => 'auth'], function () {
     //    Route::get('/link1', function ()    {
 //        // Uses Auth Middleware
