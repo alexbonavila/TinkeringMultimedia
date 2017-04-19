@@ -13,10 +13,10 @@
 <h1>SVG</h1>
 
 
-<input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="50" data-slider-max="60" data-slider-step="1" data-slider-value="14"/>
+<input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="50" data-slider-max="70" data-slider-step="1" data-slider-value="50"/>
 
 <svg width="300" height="300">
-    <circle id="circle" cx="70" cy="70" r="50" stroke="green" stroke-width="4" fill="yellow" />
+    <circle id="circle" cx="72" cy="72" r="50" stroke="green" stroke-width="4" fill="yellow" />
 </svg>
 
 
