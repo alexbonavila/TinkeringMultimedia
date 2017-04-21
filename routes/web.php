@@ -24,6 +24,11 @@ Route::get('/svg', function (){
 });
 
 Route::group(['middleware' => 'auth'], function () {
+    Route::get('/d3', function ()    {
+        // Uses Auth Middleware
+        return view('d3');
+    });
+
     //    Route::get('/link1', function ()    {
 //        // Uses Auth Middleware
 //    });

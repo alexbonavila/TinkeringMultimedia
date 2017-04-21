@@ -48,6 +48,9 @@ Vue.component('login-form', require('./components/auth/LoginForm.vue'))
 Vue.component('email-reset-password-form', require('./components/auth/EmailResetPasswordForm.vue'))
 Vue.component('reset-password-form', require('./components/auth/ResetPasswordForm.vue'))
 
+window.d3=require('d3');
+
+require('./d3/demo');
 /**
  * Echo exposes an expressive API for subscribing to channels and listening
  * for events that are broadcast by Laravel. Echo and event broadcasting
