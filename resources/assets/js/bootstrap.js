@@ -50,6 +50,8 @@ Vue.component('reset-password-form', require('./components/auth/ResetPasswordFor
 
 window.d3=require('d3');
 
+require('video.js');
+
 require('./d3/demo');
 /**
  * Echo exposes an expressive API for subscribing to channels and listening
